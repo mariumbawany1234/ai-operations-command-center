@@ -1,0 +1,24 @@
+# Secrets - never commit
+.env
+.env.*
+!.env.example
+.env.local
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Generated at runtime
+reports/*.pdf
+/Business_Intelligence_Report.pdf
+
+# Node / Next.js (frontend has its own .gitignore too)
+node_modules/
+.next/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
